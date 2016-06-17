@@ -1,7 +1,7 @@
 (ns html5-api.service-worker)
 
 (defn is-service-worker-supported?
-	[]
+  []
   (exists? js/navigator.serviceWorker))
 
 (defn register-service-worker
